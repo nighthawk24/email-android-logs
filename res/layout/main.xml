@@ -3,11 +3,21 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
+              android:gravity="center">
+
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:text="@string/test"
+            android:gravity="center"/>
+
+    <Button
+            android:id="@+id/send_email_button"
+            android:layout_width="116dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:onClick="phoneClicked"
+            android:text="@string/email_logs"/>
+
 </LinearLayout>
 
