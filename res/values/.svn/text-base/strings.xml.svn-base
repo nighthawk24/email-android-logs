@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">email-android-logs</string>
-    <string name="test">email-android-logs</string>
-    <string name="email_logs">Email Logs</string>
-</resources>
