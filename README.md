@@ -3,6 +3,8 @@ Email Android Logs
 
 Simple Activity to capture Logs from Logcat and send them as an Attachment via a Mail Client.
 
+NOTE: Google has restricted READ_LOGS permission for 3rd party apps from API 16 onwards. Hence this technique would work only on pre API 16 SDKs.
+
 
 License
 =======
